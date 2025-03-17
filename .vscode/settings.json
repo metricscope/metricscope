@@ -1,3 +1,15 @@
 {
-	"svelte.enable-ts-plugin": true
+	"svelte.enable-ts-plugin": true,
+	"[typescript]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[mdx]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }
