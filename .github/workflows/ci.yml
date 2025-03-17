@@ -34,7 +34,7 @@ jobs:
       - name: Run lint
         run: pnpm run lint
       - name: Playwright install
-        run: pnpm run playwright install
+        run: pnpm exec playwright install --with-deps
       - name: Run tests
         run: pnpm run test
       - name: Upload coverage to Codecov
