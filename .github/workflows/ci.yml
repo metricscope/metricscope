@@ -33,6 +33,8 @@ jobs:
         run: pnpm run check
       - name: Run lint
         run: pnpm run lint
+      - name: Playwright install
+        run: pnpm run playwright install
       - name: Run tests
         run: pnpm run test
       - name: Upload coverage to Codecov
