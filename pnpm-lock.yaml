@@ -28,8 +28,8 @@ importers:
         specifier: ^8.6.12
         version: 8.6.12(@types/react@19.0.10)(storybook@8.6.12(prettier@3.5.3))
       '@storybook/addon-svelte-csf':
-        specifier: 5.0.0--canary.10171be.0
-        version: 5.0.0--canary.10171be.0(@storybook/svelte@8.6.12(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)))(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))
+        specifier: 5.0.0
+        version: 5.0.0(@storybook/svelte@8.6.12(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)))(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))
       '@storybook/blocks':
         specifier: ^8.6.12
         version: 8.6.12(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.12(prettier@3.5.3))
@@ -914,8 +914,8 @@ packages:
     peerDependencies:
       storybook: ^8.6.12
 
-  '@storybook/addon-svelte-csf@5.0.0--canary.10171be.0':
-    resolution: {integrity: sha512-CnkE9klAnM8hLN+dRR5xi4o34KynzHUkCkF3ibwOxgPNKX00WvI1uT3gOPjmNtJAWNpP4eXAEOIqvGy41k+YnQ==}
+  '@storybook/addon-svelte-csf@5.0.0':
+    resolution: {integrity: sha512-DO4fjPdVDNbu6+fe5DjqrdNnB1bw56Ob5SeXVvlTfi5SAl4lINayCQQx20mUN175TGT7691AictxOxBG1d1Urg==}
     peerDependencies:
       '@storybook/svelte': ^0.0.0-0 || ^8.2.0 || ^9.0.0-0
       '@sveltejs/vite-plugin-svelte': ^4.0.0 || ^5.0.0
@@ -1710,8 +1710,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  dedent@1.5.3:
-    resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
+  dedent@1.6.0:
+    resolution: {integrity: sha512-F1Z+5UCFpmQUzJa11agbyPVMbpgT/qA3/SKyJ1jyBgm7dUcUEa8v9JwDkerSQXfakBwFljIxhOJqGkjUwZ9FSA==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -1854,8 +1854,8 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.36.0:
-    resolution: {integrity: sha512-5lpkRpDELuTSeAL//Rcg5urg+K/yOD1BobJSiNeCc89snMqgrhckmj8jdljqraDbpREiXTNW311RN518eVHBng==}
+  es-toolkit@1.37.2:
+    resolution: {integrity: sha512-ADDfk+pPFF0ofMpRAIc6on01p8heiuwuuJsYLzTP4UOjxVK9QsE2+0D1Q4J/zX2XBo6ac+27H5++YBIwmGAX/g==}
 
   es6-promise@3.3.1:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
@@ -4521,13 +4521,13 @@ snapshots:
       storybook: 8.6.12(prettier@3.5.3)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-svelte-csf@5.0.0--canary.10171be.0(@storybook/svelte@8.6.12(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)))(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))':
+  '@storybook/addon-svelte-csf@5.0.0(@storybook/svelte@8.6.12(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2))(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)))(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
       '@storybook/csf': 0.1.13
       '@storybook/svelte': 8.6.12(storybook@8.6.12(prettier@3.5.3))(svelte@5.28.2)
       '@sveltejs/vite-plugin-svelte': 5.0.3(svelte@5.28.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))
-      dedent: 1.5.3
-      es-toolkit: 1.36.0
+      dedent: 1.6.0
+      es-toolkit: 1.37.2
       esrap: 1.4.6
       magic-string: 0.30.17
       storybook: 8.6.12(prettier@3.5.3)
@@ -5401,7 +5401,7 @@ snapshots:
 
   dedent@1.5.1: {}
 
-  dedent@1.5.3: {}
+  dedent@1.6.0: {}
 
   deep-eql@5.0.2: {}
 
@@ -5516,7 +5516,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  es-toolkit@1.36.0: {}
+  es-toolkit@1.37.2: {}
 
   es6-promise@3.3.1: {}
 
