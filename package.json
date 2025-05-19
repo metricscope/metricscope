@@ -48,7 +48,7 @@
 		"@storybook/experimental-addon-test": "^8.6.12",
 		"@storybook/svelte": "^8.6.12",
 		"@storybook/sveltekit": "^8.6.12",
-		"@storybook/test": "^8.6.12",
+		"@storybook/test": "^8.6.14",
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.21.0",
 		"@sveltejs/package": "^2.3.11",
