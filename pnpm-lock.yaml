@@ -127,7 +127,7 @@ importers:
         specifier: ^6.3.5
         version: 6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)
       vitest:
-        specifier: ^3.1.2
+        specifier: ^3.1.4
         version: 3.1.4(@types/node@22.14.1)(@vitest/browser@3.1.4)(jiti@2.4.2)(jsdom@26.1.0)(lightningcss@1.30.1)(msw@2.7.3(@types/node@22.14.1)(typescript@5.8.3))
 
 packages:
@@ -3294,6 +3294,10 @@ packages:
 
   tinyglobby@0.2.13:
     resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
+    engines: {node: '>=12.0.0'}
+
+  tinyglobby@0.2.14:
+    resolution: {integrity: sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ==}
     engines: {node: '>=12.0.0'}
 
   tinypool@1.0.2:
@@ -6905,6 +6909,11 @@ snapshots:
       fdir: 6.4.4(picomatch@4.0.2)
       picomatch: 4.0.2
 
+  tinyglobby@0.2.14:
+    dependencies:
+      fdir: 6.4.4(picomatch@4.0.2)
+      picomatch: 4.0.2
+
   tinypool@1.0.2: {}
 
   tinyrainbow@1.2.0: {}
@@ -7025,7 +7034,7 @@ snapshots:
   vite-node@3.1.4(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1):
     dependencies:
       cac: 6.7.14
-      debug: 4.4.0
+      debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
       vite: 6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)
@@ -7071,14 +7080,14 @@ snapshots:
       '@vitest/spy': 3.1.4
       '@vitest/utils': 3.1.4
       chai: 5.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       expect-type: 1.2.1
       magic-string: 0.30.17
       pathe: 2.0.3
       std-env: 3.9.0
       tinybench: 2.9.0
       tinyexec: 0.3.2
-      tinyglobby: 0.2.13
+      tinyglobby: 0.2.14
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
       vite: 6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)
