@@ -28,8 +28,8 @@ importers:
         specifier: ^8.6.14
         version: 8.6.14(@types/react@19.0.10)(storybook@8.6.14(prettier@3.6.0))
       '@storybook/addon-svelte-csf':
-        specifier: 5.0.3
-        version: 5.0.3(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
+        specifier: 5.0.4
+        version: 5.0.4(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
       '@storybook/blocks':
         specifier: ^8.6.12
         version: 8.6.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.6.0))
@@ -1066,8 +1066,8 @@ packages:
     peerDependencies:
       storybook: ^8.6.14
 
-  '@storybook/addon-svelte-csf@5.0.3':
-    resolution: {integrity: sha512-P6f/fCqL0Wq79LTe1EjSjKppKE5h8Dz5+x9R/NK7+5PyQI4NS1RNwMnppUJeJhF4CqV7BLjsFGr88DT3AAdytw==}
+  '@storybook/addon-svelte-csf@5.0.4':
+    resolution: {integrity: sha512-DqUnXZN9flzjBgra0zO2Yu4+RODv5qEyooZkXkrvB4SqkfYxWDKwmB+xmceArWlGyaqNvbNhMmSnpnGUuCFQUQ==}
     peerDependencies:
       '@storybook/svelte': ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0
       '@sveltejs/vite-plugin-svelte': ^4.0.0 || ^5.0.0
@@ -2015,8 +2015,8 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.38.0:
-    resolution: {integrity: sha512-OT3AxczYYd3W50bCj4V0hKoOAfqIy9tof0leNQYekEDxVKir3RTVTJOLij7VAe6fsCNsGhC0JqIkURpMXTCSEA==}
+  es-toolkit@1.39.5:
+    resolution: {integrity: sha512-z9V0qU4lx1TBXDNFWfAASWk6RNU6c6+TJBKE+FLIg8u0XJ6Yw58Hi0yX8ftEouj6p1QARRlXLFfHbIli93BdQQ==}
 
   es6-promise@3.3.1:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
@@ -2128,9 +2128,6 @@ packages:
 
   esrap@1.2.2:
     resolution: {integrity: sha512-F2pSJklxx1BlQIQgooczXCPHmcWpn6EsP5oo73LQfonG9fIlIENQ8vMmfGXeojP9MrkzUNAfyU5vdFlR9shHAw==}
-
-  esrap@1.4.6:
-    resolution: {integrity: sha512-F/D2mADJ9SHY3IwksD4DAXjTt7qt7GWUf3/8RhCNWmC/67tyb55dpimHmy7EplakFaflV0R/PC+fdSPqrRHAQw==}
 
   esrap@1.4.9:
     resolution: {integrity: sha512-3OMlcd0a03UGuZpPeUC1HxR3nA23l+HEyCiZw3b3FumJIN9KphoGzDJKMXI1S72jVS1dsenDyQC0kJlO1U9E1g==}
@@ -4662,14 +4659,14 @@ snapshots:
       storybook: 8.6.14(prettier@3.6.0)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-svelte-csf@5.0.3(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
+  '@storybook/addon-svelte-csf@5.0.4(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
       '@storybook/csf': 0.1.13
       '@storybook/svelte': 8.6.14(storybook@8.6.14(prettier@3.6.0))(svelte@5.34.7)
       '@sveltejs/vite-plugin-svelte': 5.1.0(svelte@5.34.7)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
       dedent: 1.6.0
-      es-toolkit: 1.38.0
-      esrap: 1.4.6
+      es-toolkit: 1.39.5
+      esrap: 1.4.9
       magic-string: 0.30.17
       storybook: 8.6.14(prettier@3.6.0)
       svelte: 5.34.7
@@ -5682,7 +5679,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  es-toolkit@1.38.0: {}
+  es-toolkit@1.39.5: {}
 
   es6-promise@3.3.1: {}
 
@@ -5912,10 +5909,6 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
       '@types/estree': 1.0.8
-
-  esrap@1.4.6:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.0
 
   esrap@1.4.9:
     dependencies:
