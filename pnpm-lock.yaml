@@ -52,8 +52,8 @@ importers:
         specifier: ^2.22.0
         version: 2.22.0(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.8)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.8)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
       '@sveltejs/package':
-        specifier: ^2.3.11
-        version: 2.3.11(svelte@5.34.8)(typescript@5.8.3)
+        specifier: ^2.3.12
+        version: 2.3.12(svelte@5.34.8)(typescript@5.8.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.1.0
         version: 5.1.0(svelte@5.34.8)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
@@ -1227,8 +1227,8 @@ packages:
       svelte: ^4.0.0 || ^5.0.0-next.0
       vite: ^5.0.3 || ^6.0.0 || ^7.0.0-beta.0
 
-  '@sveltejs/package@2.3.11':
-    resolution: {integrity: sha512-DSMt2U0XNAdoQBYksrmgQi5dKy7jUTVDJLiagS/iXF7AShjAmTbGJQKruBuT/FfYAWvNxfQTSjkXU8eAIjVeNg==}
+  '@sveltejs/package@2.3.12':
+    resolution: {integrity: sha512-PUl5aNbk2x28rPdAVTZMtrZmAx6yxQ+s33OtOkE0j0fWtoi9GzENXKRJPHrGk5rwGrczqY0LtNi8dycRPL+yzA==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     peerDependencies:
@@ -3127,11 +3127,6 @@ packages:
   scheduler@0.26.0:
     resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
 
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.7.2:
     resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
@@ -3295,14 +3290,8 @@ packages:
       typescript:
         optional: true
 
-  svelte2tsx@0.7.36:
-    resolution: {integrity: sha512-nBlERuCZRwmpebC8m0vDqZ9oaKsqW8frQS2l3zwFQW1voQIkItYtHxh1F5OTZEmE0meDIH6cxU36eIOQVOxlCw==}
-    peerDependencies:
-      svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
-      typescript: ^4.9.4 || ^5.0.0
-
-  svelte2tsx@0.7.39:
-    resolution: {integrity: sha512-NX8a7eSqF1hr6WKArvXr7TV7DeE+y0kDFD7L5JP7TWqlwFidzGKaG415p992MHREiiEWOv2xIWXJ+mlONofs0A==}
+  svelte2tsx@0.7.40:
+    resolution: {integrity: sha512-Fgqe2lzC9DWT/kQTIXqN39O2ot9rUqzUu9dqpbuI6EsaEJ6+RSXVmXnxcNYMlKb2LRPDoIg9TVzXYWwi0zhCmQ==}
     peerDependencies:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
       typescript: ^4.9.4 || ^5.0.0
@@ -4794,7 +4783,7 @@ snapshots:
       storybook: 8.6.14(prettier@3.6.1)
       svelte: 5.34.8
       svelte-preprocess: 5.1.4(postcss-load-config@3.1.4(postcss@8.5.6))(postcss@8.5.6)(svelte@5.34.8)(typescript@5.8.3)
-      svelte2tsx: 0.7.39(svelte@5.34.8)(typescript@5.8.3)
+      svelte2tsx: 0.7.40(svelte@5.34.8)(typescript@5.8.3)
       sveltedoc-parser: 4.2.1
       ts-dedent: 2.2.0
       typescript: 5.8.3
@@ -4891,14 +4880,14 @@ snapshots:
       vite: 6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)
       vitefu: 1.0.7(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
 
-  '@sveltejs/package@2.3.11(svelte@5.34.8)(typescript@5.8.3)':
+  '@sveltejs/package@2.3.12(svelte@5.34.8)(typescript@5.8.3)':
     dependencies:
       chokidar: 4.0.3
       kleur: 4.1.5
       sade: 1.8.1
-      semver: 7.7.1
+      semver: 7.7.2
       svelte: 5.34.8
-      svelte2tsx: 0.7.36(svelte@5.34.8)(typescript@5.8.3)
+      svelte2tsx: 0.7.40(svelte@5.34.8)(typescript@5.8.3)
     transitivePeerDependencies:
       - typescript
 
@@ -6827,8 +6816,6 @@ snapshots:
 
   scheduler@0.26.0: {}
 
-  semver@7.7.1: {}
-
   semver@7.7.2: {}
 
   set-cookie-parser@2.7.1: {}
@@ -6972,14 +6959,7 @@ snapshots:
       postcss-load-config: 3.1.4(postcss@8.5.6)
       typescript: 5.8.3
 
-  svelte2tsx@0.7.36(svelte@5.34.8)(typescript@5.8.3):
-    dependencies:
-      dedent-js: 1.0.1
-      pascal-case: 3.1.2
-      svelte: 5.34.8
-      typescript: 5.8.3
-
-  svelte2tsx@0.7.39(svelte@5.34.8)(typescript@5.8.3):
+  svelte2tsx@0.7.40(svelte@5.34.8)(typescript@5.8.3):
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
