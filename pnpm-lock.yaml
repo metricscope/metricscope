@@ -19,8 +19,8 @@ importers:
         specifier: ^1.3.1
         version: 1.3.1(eslint@9.30.0(jiti@2.4.2))
       '@eslint/js':
-        specifier: ^9.30.0
-        version: 9.30.0
+        specifier: ^9.30.1
+        version: 9.30.1
       '@playwright/test':
         specifier: ^1.53.2
         version: 1.53.2
@@ -565,6 +565,10 @@ packages:
     resolution: {integrity: sha512-Wzw3wQwPvc9sHM+NjakWTcPx11mbZyiYHuwWa/QfZ7cIRX7WK54PSk7bdyXDaoaopUcMatv1zaQvOAAO8hCdww==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
+  '@eslint/js@9.30.1':
+    resolution: {integrity: sha512-zXhuECFlyep42KZUhWjfvsmXGX39W8K8LFb8AWXM9gSV9dQB+MrJGLKvW6Zw0Ggnbpw0VHTtrhFXYe3Gym18jg==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
   '@eslint/object-schema@2.1.6':
     resolution: {integrity: sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
@@ -694,8 +698,8 @@ packages:
     resolution: {integrity: sha512-VAtle21vRpIrB+axtHFrFB0d1HtDaaNj+lV77eZQTJyOWbTFYTVIQJ8WAbyw9eu4F6h6QC2FutLyxjMomxfpcQ==}
     deprecated: no longer used
 
-  '@inquirer/confirm@5.1.12':
-    resolution: {integrity: sha512-dpq+ielV9/bqgXRUbNH//KsY6WEw9DrGPmipkpmgC1Y46cwuBTNx7PXFWTjc3MQ+urcc0QxoVHcMI0FW4Ok0hg==}
+  '@inquirer/confirm@5.1.13':
+    resolution: {integrity: sha512-EkCtvp67ICIVVzjsquUiVSd+V5HRGOGQfsqA4E4vMWhYnB7InUL0pa0TIWt1i+OfP16Gkds8CdIu6yGZwOM1Yw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/node': '>=18'
@@ -703,8 +707,8 @@ packages:
       '@types/node':
         optional: true
 
-  '@inquirer/core@10.1.13':
-    resolution: {integrity: sha512-1viSxebkYN2nJULlzCxES6G9/stgHSepZ9LqqfdIGPHj5OHhiBUXVS0a6R0bEC2A+VL4D9w6QB66ebCr6HGllA==}
+  '@inquirer/core@10.1.14':
+    resolution: {integrity: sha512-Ma+ZpOJPewtIYl6HZHZckeX1STvDnHTCB2GVINNUlSEn2Am6LddWwfPkIGY0IUFVjUUrr/93XlBwTK6mfLjf0A==}
     engines: {node: '>=18'}
     peerDependencies:
       '@types/node': '>=18'
@@ -4001,6 +4005,8 @@ snapshots:
 
   '@eslint/js@9.30.0': {}
 
+  '@eslint/js@9.30.1': {}
+
   '@eslint/object-schema@2.1.6': {}
 
   '@eslint/plugin-kit@0.3.3':
@@ -4236,15 +4242,15 @@ snapshots:
     dependencies:
       '@inlang/language-tag': 1.5.1
 
-  '@inquirer/confirm@5.1.12(@types/node@22.14.1)':
+  '@inquirer/confirm@5.1.13(@types/node@22.14.1)':
     dependencies:
-      '@inquirer/core': 10.1.13(@types/node@22.14.1)
+      '@inquirer/core': 10.1.14(@types/node@22.14.1)
       '@inquirer/type': 3.0.7(@types/node@22.14.1)
     optionalDependencies:
       '@types/node': 22.14.1
     optional: true
 
-  '@inquirer/core@10.1.13(@types/node@22.14.1)':
+  '@inquirer/core@10.1.14(@types/node@22.14.1)':
     dependencies:
       '@inquirer/figures': 1.0.12
       '@inquirer/type': 3.0.7(@types/node@22.14.1)
@@ -6483,7 +6489,7 @@ snapshots:
       '@bundled-es-modules/cookie': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@bundled-es-modules/tough-cookie': 0.1.6
-      '@inquirer/confirm': 5.1.12(@types/node@22.14.1)
+      '@inquirer/confirm': 5.1.13(@types/node@22.14.1)
       '@mswjs/interceptors': 0.37.6
       '@open-draft/deferred-promise': 2.2.0
       '@open-draft/until': 2.1.0
