@@ -28,8 +28,8 @@ importers:
         specifier: ^8.6.14
         version: 8.6.14(@types/react@19.0.10)(storybook@8.6.14(prettier@3.6.2))
       '@storybook/addon-svelte-csf':
-        specifier: 5.0.5
-        version: 5.0.5(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
+        specifier: 5.0.6
+        version: 5.0.6(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
       '@storybook/blocks':
         specifier: ^8.6.12
         version: 8.6.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.6.2))
@@ -1067,8 +1067,8 @@ packages:
     peerDependencies:
       storybook: ^8.6.14
 
-  '@storybook/addon-svelte-csf@5.0.5':
-    resolution: {integrity: sha512-KmABZbud1g2FpLQhGy9505i0urKtiq7bbwB3sE5Th1HE1wlooHrixAGrzeoKLWffzOjznafwLZCHX1FTQbGHYA==}
+  '@storybook/addon-svelte-csf@5.0.6':
+    resolution: {integrity: sha512-Ryo28eV7YrptIt9PmpIpDHAGXAKwfNKMvN/d79Bv7kYhdQ+LvyJkNzNOn6Tpem4soUZTsf4+CdqbKs3eHHIXPg==}
     peerDependencies:
       '@storybook/svelte': ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0
       '@sveltejs/vite-plugin-svelte': ^4.0.0 || ^5.0.0
@@ -4666,7 +4666,7 @@ snapshots:
       storybook: 8.6.14(prettier@3.6.2)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-svelte-csf@5.0.5(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
+  '@storybook/addon-svelte-csf@5.0.6(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2))(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2)(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
       '@storybook/csf': 0.1.13
       '@storybook/svelte': 8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.35.2)
