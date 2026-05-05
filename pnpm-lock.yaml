@@ -28,8 +28,8 @@ importers:
         specifier: ^8.6.14
         version: 8.6.14(@types/react@19.0.10)(storybook@8.6.14(prettier@3.6.2))
       '@storybook/addon-svelte-csf':
-        specifier: 5.0.7
-        version: 5.0.7(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0)))(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
+        specifier: 5.1.2
+        version: 5.1.2(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0)))(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
       '@storybook/blocks':
         specifier: ^8.6.12
         version: 8.6.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.14(prettier@3.6.2))
@@ -1073,14 +1073,14 @@ packages:
     peerDependencies:
       storybook: ^8.6.14
 
-  '@storybook/addon-svelte-csf@5.0.7':
-    resolution: {integrity: sha512-6Zmy5HjOlrrG6OoKRTGDr9LR6zRK4/Sa7raFzQRKHGASgMlfKsMdNTNO0sxnMUWCu2JMS6HsuoLtB3Ma8SlYtg==}
+  '@storybook/addon-svelte-csf@5.1.2':
+    resolution: {integrity: sha512-NpImknEb48J7yr/ArTYpvhDSvGUrgm5Nuybu9PCicjSKTACsXX7cln2R19572ORtns399RTE+t20BBOKxSPm2g==}
     peerDependencies:
-      '@storybook/svelte': ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0
-      '@sveltejs/vite-plugin-svelte': ^4.0.0 || ^5.0.0 || ^6.0.0
-      storybook: ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0
+      '@storybook/svelte': ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
+      '@sveltejs/vite-plugin-svelte': ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+      storybook: ^0.0.0-0 || ^8.2.0 || ^9.0.0 || ^9.1.0-0 || ^10.0.0-0 || ^10.1.0-0 || ^10.2.0-0 || ^10.3.0-0 || ^10.4.0-0
       svelte: ^5.0.0
-      vite: ^5.0.0 || ^6.0.0 || ^7.0.0
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
 
   '@storybook/addon-toolbars@8.6.14':
     resolution: {integrity: sha512-W/wEXT8h3VyZTVfWK/84BAcjAxTdtRiAkT2KAN0nbSHxxB5KEM1MjKpKu2upyzzMa3EywITqbfy4dP6lpkVTwQ==}
@@ -1905,8 +1905,8 @@ packages:
       babel-plugin-macros:
         optional: true
 
-  dedent@1.6.0:
-    resolution: {integrity: sha512-F1Z+5UCFpmQUzJa11agbyPVMbpgT/qA3/SKyJ1jyBgm7dUcUEa8v9JwDkerSQXfakBwFljIxhOJqGkjUwZ9FSA==}
+  dedent@1.7.2:
+    resolution: {integrity: sha512-WzMx3mW98SN+zn3hgemf4OzdmyNhhhKz5Ay0pUfQiMQ3e1g+xmTJWp/pKdwKVXhdSkAEGIIzqeuWrL3mV/AXbA==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -2041,8 +2041,8 @@ packages:
     resolution: {integrity: sha512-j6vWzfrGVfyXxge+O0x5sh6cvxAog0a/4Rdd2K36zCMV5eJ+/+tOAngRO8cODMNWbVRdVlmGZQL2YS3yR8bIUA==}
     engines: {node: '>= 0.4'}
 
-  es-toolkit@1.39.7:
-    resolution: {integrity: sha512-ek/wWryKouBrZIjkwW2BFf91CWOIMvoy2AE5YYgUrfWsJQM2Su1LoLtrw8uusEpN9RfqLlV/0FVNjT0WMv8Bxw==}
+  es-toolkit@1.46.1:
+    resolution: {integrity: sha512-5eNtXOs3tbfxXOj04tjjseeWkRWaoCjdEI+96DgwzZoe6c9juL49pXlzAFTI72aWC9Y8p7168g6XIKjh7k6pyQ==}
 
   es6-promise@3.3.1:
     resolution: {integrity: sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==}
@@ -4713,20 +4713,20 @@ snapshots:
       storybook: 8.6.14(prettier@3.6.2)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-svelte-csf@5.0.7(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0)))(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
+  '@storybook/addon-svelte-csf@5.1.2(@storybook/svelte@8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0)))(@sveltejs/vite-plugin-svelte@5.1.1(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)))(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
       '@storybook/csf': 0.1.13
       '@storybook/svelte': 8.6.14(storybook@8.6.14(prettier@3.6.2))(svelte@5.55.5(@typescript-eslint/types@8.37.0))
       '@sveltejs/vite-plugin-svelte': 5.1.1(svelte@5.55.5(@typescript-eslint/types@8.37.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1))
-      dedent: 1.6.0
-      es-toolkit: 1.39.7
+      dedent: 1.7.2
+      es-toolkit: 1.46.1
       esrap: 1.4.9
-      magic-string: 0.30.17
+      magic-string: 0.30.21
       storybook: 8.6.14(prettier@3.6.2)
       svelte: 5.55.5(@typescript-eslint/types@8.37.0)
       svelte-ast-print: 0.4.2(svelte@5.55.5(@typescript-eslint/types@8.37.0))
       vite: 6.3.5(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.30.1)
-      zimmerframe: 1.1.2
+      zimmerframe: 1.1.4
     transitivePeerDependencies:
       - babel-plugin-macros
 
@@ -5631,7 +5631,7 @@ snapshots:
 
   dedent@1.5.1: {}
 
-  dedent@1.6.0: {}
+  dedent@1.7.2: {}
 
   deep-eql@5.0.2: {}
 
@@ -5742,7 +5742,7 @@ snapshots:
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
-  es-toolkit@1.39.7: {}
+  es-toolkit@1.46.1: {}
 
   es6-promise@3.3.1: {}
 
