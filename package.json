@@ -51,7 +51,7 @@
 		"@storybook/test": "^8.6.15",
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.62.0",
-		"@sveltejs/package": "^2.5.7",
+		"@sveltejs/package": "^2.5.8",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.3.0",
