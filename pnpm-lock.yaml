@@ -103,8 +103,8 @@ importers:
         specifier: ^0.6.14
         version: 0.6.14(prettier-plugin-svelte@3.5.2(prettier@3.6.2)(svelte@5.57.1(@typescript-eslint/types@8.71.0)))(prettier@3.6.2)
       publint:
-        specifier: ^0.3.24
-        version: 0.3.24
+        specifier: ^0.3.25
+        version: 0.3.25
       storybook:
         specifier: ^8.6.18
         version: 8.6.18(prettier@3.6.2)(supports-color@7.2.0)
@@ -3169,8 +3169,8 @@ packages:
   psl@1.15.0:
     resolution: {integrity: sha512-JZd3gMVBAVQkSs6HdNZo9Sdo0LNcQeMNP3CozBJb3JYC/QUYZTnKxP+f8oWRX4rHP5EurWxqAHTSwUCjlNKa1w==}
 
-  publint@0.3.24:
-    resolution: {integrity: sha512-9zS56KrKBoqi5Qt8h92uMP8TTM9AYZSgnmCo4u2priMqkOZvQnTsziZ2p5LJ2ywbYkAjoCDp2jda9u4cgFefIw==}
+  publint@0.3.25:
+    resolution: {integrity: sha512-WMMbn/d7JqRlfXQL/JUI4n5skC8cJ5WVr8/wT5mmiYWkUdENkZr1I5rgs2+dQPVRgoJd+JRYtB46MTsuDylw9g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6971,7 +6971,7 @@ snapshots:
       punycode: 2.3.1
     optional: true
 
-  publint@0.3.24:
+  publint@0.3.25:
     dependencies:
       '@publint/pack': 0.1.7
       package-manager-detector: 1.8.0
