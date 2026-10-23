@@ -29,7 +29,7 @@ importers:
         version: 8.6.14(@types/react@19.0.10)(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
       '@storybook/addon-svelte-csf':
         specifier: 5.1.5
-        version: 5.1.5(@storybook/svelte@8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0)))(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)))(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))
+        version: 5.1.5(@storybook/svelte@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0)))(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)))(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))
       '@storybook/blocks':
         specifier: ^8.6.12
         version: 8.6.14(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
@@ -37,8 +37,8 @@ importers:
         specifier: ^8.6.14
         version: 8.6.14(@vitest/browser@3.2.4)(@vitest/runner@3.2.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(vitest@3.2.0)
       '@storybook/svelte':
-        specifier: ^8.6.18
-        version: 8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))
+        specifier: ^8.6.19
+        version: 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))
       '@storybook/sveltekit':
         specifier: ^8.6.18
         version: 8.6.18(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)))(postcss-load-config@3.1.4(postcss@8.5.26))(postcss@8.5.26)(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))
@@ -1149,6 +1149,11 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
+  '@storybook/components@8.6.19':
+    resolution: {integrity: sha512-BZKh0EKQKGz+OKcPGU6/2r2D/dm7UGLOtFAV4pXBQ7fTIVfS44lRA7EqhbwzQPsqDnxOqfkG7rjYSB/SBERYvg==}
+    peerDependencies:
+      storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+
   '@storybook/core@8.6.19':
     resolution: {integrity: sha512-o9TZn0YxSxjBOxkTlJWq9jFTZn53Wr83HNvX0k8YYxxA5evwt7kWubKs/RMTEIyXbsBKW7XUw7Cq9fLmhgJ3Bg==}
     peerDependencies:
@@ -1213,8 +1218,18 @@ packages:
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
+  '@storybook/manager-api@8.6.19':
+    resolution: {integrity: sha512-dSXNq2cvFnQb51qSO/BycrkptNZ2O0uOOh9aAe5peLrQXlUu5uVEYHRVBY0QQEliIlpmkjufX5cmbELud63aUw==}
+    peerDependencies:
+      storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+
   '@storybook/preview-api@8.6.18':
     resolution: {integrity: sha512-joXRXh3GdVvzhbfIgmix1xs90p8Q/nja7AhEAC2egn5Pl7SKsIYZUCYI6UdrQANb2myg9P552LKXfPect8llKg==}
+    peerDependencies:
+      storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+
+  '@storybook/preview-api@8.6.19':
+    resolution: {integrity: sha512-/y64JOeuagL2GMU/xy+1Aa4ZLfA1WXa1DfYxSfZVpxr8AaSuYguFOcYygSMXW1jUbLAZH048BnvqUCXliNXLmw==}
     peerDependencies:
       storybook: ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
 
@@ -1239,6 +1254,13 @@ packages:
     engines: {node: '>=18.0.0'}
     peerDependencies:
       storybook: ^8.6.18
+      svelte: ^4.0.0 || ^5.0.0
+
+  '@storybook/svelte@8.6.19':
+    resolution: {integrity: sha512-EyxLjL+PHq2/utnfdCK5t/JwyIMp4QaNxqeW/3It8kc9of1Umo1i03oQsWruSEMeqGKCI1o6rKR2iLizRr+cRw==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      storybook: ^8.6.19
       svelte: ^4.0.0 || ^5.0.0
 
   '@storybook/sveltekit@8.6.18':
@@ -4825,10 +4847,10 @@ snapshots:
       storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-svelte-csf@5.1.5(@storybook/svelte@8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0)))(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)))(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))':
+  '@storybook/addon-svelte-csf@5.1.5(@storybook/svelte@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0)))(@sveltejs/vite-plugin-svelte@5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)))(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))':
     dependencies:
       '@storybook/csf': 0.1.13
-      '@storybook/svelte': 8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))
+      '@storybook/svelte': 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))
       '@sveltejs/vite-plugin-svelte': 5.1.1(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))(vite@6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0))
       dedent: 1.7.2
       es-toolkit: 1.52.0
@@ -4869,6 +4891,10 @@ snapshots:
       vite: 6.3.5(@types/node@22.14.1)(jiti@2.7.0)(lightningcss@1.32.0)
 
   '@storybook/components@8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))':
+    dependencies:
+      storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
+
+  '@storybook/components@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))':
     dependencies:
       storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
 
@@ -4952,7 +4978,15 @@ snapshots:
     dependencies:
       storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
 
+  '@storybook/manager-api@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))':
+    dependencies:
+      storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
+
   '@storybook/preview-api@8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))':
+    dependencies:
+      storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
+
+  '@storybook/preview-api@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))':
     dependencies:
       storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
 
@@ -4996,6 +5030,22 @@ snapshots:
       '@storybook/manager-api': 8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
       '@storybook/preview-api': 8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
       '@storybook/theming': 8.6.18(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
+      storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
+      svelte: 5.57.2(@typescript-eslint/types@8.72.0)
+      sveltedoc-parser: 4.2.1(supports-color@7.2.0)
+      ts-dedent: 2.2.0
+      type-fest: 2.19.0
+    transitivePeerDependencies:
+      - supports-color
+
+  '@storybook/svelte@8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))(supports-color@7.2.0)(svelte@5.57.2(@typescript-eslint/types@8.72.0))':
+    dependencies:
+      '@storybook/components': 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
+      '@storybook/csf': 0.1.12
+      '@storybook/global': 5.0.0
+      '@storybook/manager-api': 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
+      '@storybook/preview-api': 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
+      '@storybook/theming': 8.6.19(storybook@8.6.19(prettier@3.6.2)(supports-color@7.2.0))
       storybook: 8.6.19(prettier@3.6.2)(supports-color@7.2.0)
       svelte: 5.57.2(@typescript-eslint/types@8.72.0)
       sveltedoc-parser: 4.2.1(supports-color@7.2.0)
@@ -6051,7 +6101,7 @@ snapshots:
       eslint-scope: 7.2.2
       eslint-utils: 3.0.0(eslint@8.4.1(supports-color@7.2.0))
       eslint-visitor-keys: 3.4.3
-      espree: 9.6.1
+      espree: 9.2.0
       esquery: 1.7.0
       esutils: 2.0.3
       fast-deep-equal: 3.1.3
