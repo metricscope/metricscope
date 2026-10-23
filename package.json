@@ -71,7 +71,7 @@
 		"publint": "^0.3.25",
 		"storybook": "^8.6.19",
 		"svelte": "^5.57.2",
-		"svelte-check": "^4.7.6",
+		"svelte-check": "^4.7.7",
 		"tailwindcss": "^4.3.3",
 		"typescript": "^5.8.3",
 		"typescript-eslint": "^8.72.0",
