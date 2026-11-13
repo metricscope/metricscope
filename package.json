@@ -49,7 +49,7 @@
 		"@storybook/svelte": "^8.6.19",
 		"@storybook/sveltekit": "^8.6.19",
 		"@storybook/test": "^8.6.15",
-		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/adapter-static": "^3.0.11",
 		"@sveltejs/kit": "^2.70.3",
 		"@sveltejs/package": "^2.5.8",
 		"@sveltejs/vite-plugin-svelte": "^5.1.1",
